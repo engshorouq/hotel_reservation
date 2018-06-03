@@ -10,7 +10,6 @@ class customer():
 		result=True
 		for cu in customer.Customers:
 			if(cu.customer_full_name==self.customer_full_name and cu.customer_id == self.customer_id):
-				result=False
 				print('The customer exist')
 		if result :
 			customer.Customers.append(self)	
