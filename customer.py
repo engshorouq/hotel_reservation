@@ -6,8 +6,7 @@ class customer():
 		self.customer_full_name=customer_full_name
 		self.customer_phone_number=customer_phone_number
 
-	def add_customer(self):
-		result=True
+	def add_customer(self):		
 		for cu in customer.Customers:
 			if(cu.customer_full_name==self.customer_full_name and cu.customer_id == self.customer_id):
 				print('The customer exist')
